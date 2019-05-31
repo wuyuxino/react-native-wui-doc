@@ -409,6 +409,19 @@ export default [
           }
         ],
       },
+      // parse
+      {
+        name: 'ParseMethod',
+        icon: 'pic-center',
+        path: '/parse',
+        routes: [
+          {
+            path: '/parse/parsemethod',
+            name: '常用函数',
+            component: './Parse/ParseMethod'
+          }
+        ],
+      },
       {
         component: '404',
       }

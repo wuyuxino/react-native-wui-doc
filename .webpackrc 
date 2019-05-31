@@ -1,7 +1,7 @@
   "html": {
     "template": "./src/index.ejs"
   },
-  "publicPath": "/src/assets",
+  "publicPath": "/",
   "disableDynamicImport": true,
   "hash": true
 }

@@ -64,6 +64,7 @@ export default {
   // base: '/pet-mgr',
   // publicPath: '/pet-mgr/',
   // add for transfer to umi
+  history: 'hash',
   plugins,
   define: {
     ANT_DESIGN_PRO_ONLY_DO_NOT_USE_IN_YOUR_PRODUCTION:

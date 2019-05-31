@@ -143,16 +143,16 @@ class WtimeSelect extends Component{
           }}>
           <h2 style={{marginTop:'60px'}}><Icon type="picture" theme="filled" style={{color:'#1890FF'}} /> 效果图</h2>
           <img 
-            width='500px' 
+            width='300px' 
             style={{
-              borderRadius:'60px'
+              borderRadius:'45px'
             }}
             src={wtimeselect}/>
           <h2 style={{marginTop:'30px',marginBottom:'30px'}}><Icon type="code" theme="filled" style={{color:'#1890FF'}} /> 使用方法</h2>
           <textarea 
             className='textarea'
             rows="20" 
-            cols="80"
+            cols="60"
             style={{
               borderColor:'#ccc',
               background:'#f2f2f2',

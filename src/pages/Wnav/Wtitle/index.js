@@ -30,10 +30,9 @@ class WheaderPage extends Component{
         <div
           style={{
             width:'50%',
-            float:'left'
+            float:'right'
           }}>
-          <h1 style={{fontSize:'30px',color:'#1890FF',letterSpacing:1}}>Wtitle</h1>
-          <h2><Icon type="snippets" theme="filled" style={{color:'#1890FF'}} /> 属性</h2>
+          <h2 style={{marginTop:'60px'}}><Icon type="snippets" theme="filled" style={{color:'#1890FF'}} /> 属性</h2>
           <ol>
             {
               [
@@ -123,9 +122,11 @@ class WheaderPage extends Component{
         <div
           style={{
             width:'50%',
-            float:'right'
+            float:'left',
+            paddingLeft:'30px'
           }}>
-          <h2 style={{marginTop:'60px'}}><Icon type="picture" theme="filled" style={{color:'#1890FF'}} /> 效果图</h2>
+          <h1 style={{fontSize:'30px',color:'#1890FF',letterSpacing:1}}>Wtitle</h1>
+          <h2 style={{marginTop:'10px'}}><Icon type="picture" theme="filled" style={{color:'#1890FF'}} /> 效果图</h2>
           <img 
             width='300px' 
             style={{

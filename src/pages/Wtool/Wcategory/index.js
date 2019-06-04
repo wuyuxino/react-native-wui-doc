@@ -149,7 +149,7 @@ class Wcategory extends Component{
           <textarea 
             className='textarea'
             rows="20" 
-            cols="60"
+            cols="48"
             style={{
               borderColor:'#ccc',
               background:'#f2f2f2',

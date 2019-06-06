@@ -158,6 +158,19 @@ export default [
           }
         ],
       },
+      // adaptation
+      {
+        name: '屏幕适配',
+        icon: 'fullscreen-exit',
+        path: '/designsize',
+        routes: [
+          {
+            path: '/designsize/adaptation',
+            name: '常用函数',
+            component: './DesignSize/Adaptation'
+          }
+        ],
+      },
       {
         component: '404',
       }

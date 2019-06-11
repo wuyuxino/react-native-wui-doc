@@ -145,6 +145,24 @@ export default [
           }
         ],
       },
+      // mall
+      {
+        name: '商城组件',
+        icon: 'appstore',
+        path: '/wmall',
+        routes: [
+          {
+            path: '/wmall/wquantity',
+            name: '数量选择',
+            component: './Wmall/Wquantity'
+          },
+          {
+            path: '/wmall/wspinner',
+            name: '下拉列表',
+            component: './Wmall/Wspinner'
+          }
+        ],
+      },
       // parse
       {
         name: 'ParseMethod',

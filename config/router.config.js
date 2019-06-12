@@ -160,6 +160,11 @@ export default [
             path: '/wmall/wspinner',
             name: '下拉列表',
             component: './Wmall/Wspinner'
+          },
+          {
+            path: '/wmall/wmessage',
+            name: '聊天消息',
+            component: './Wmall/Wmessage'
           }
         ],
       },

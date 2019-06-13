@@ -194,6 +194,19 @@ export default [
           }
         ],
       },
+      // 组件安装常见问题
+      {
+        name: '组件安装',
+        icon: 'download',
+        path: '/winstall',
+        routes: [
+          {
+            path: '/winstall/winstall',
+            name: '导航、Parse、MobX',
+            component: './Winstall/Winstall'
+          }
+        ],
+      },
       {
         component: '404',
       }

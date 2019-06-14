@@ -199,6 +199,12 @@ class Wmessage extends Component{
             }}>
           </textarea>
           <h2 style={{marginTop:'30px',marginBottom:'30px'}}><Icon type="warning" theme="filled" style={{color:'orange'}} /> 注意事项</h2>
+          <div>
+            初始化数据listTalkData的格式 
+            <br/>
+            [ &#123; avatar:'用户的头像地址', id:'用户的ID', content:'用户讲的话' &#125; ]<br/>
+            显示的字段为这三个字段，名称必须一致，其余用到的字段可以自己添加
+          </div>
         </div>
       </div>
     )

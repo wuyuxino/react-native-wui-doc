@@ -165,6 +165,11 @@ export default [
             path: '/wmall/wmessage',
             name: '聊天消息',
             component: './Wmall/Wmessage'
+          },
+          {
+            path: '/wmall/wcode',
+            name: '验证码',
+            component: './Wmall/Wcode'
           }
         ],
       },

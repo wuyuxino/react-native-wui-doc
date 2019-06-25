@@ -170,6 +170,11 @@ export default [
             path: '/wmall/wcode',
             name: '验证码',
             component: './Wmall/Wcode'
+          },
+          {
+            path: '/wmall/wpsbox',
+            name: '密码输入',
+            component: './Wmall/Wpsbox'
           }
         ],
       },

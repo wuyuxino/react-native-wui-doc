@@ -6,6 +6,7 @@ import styles from './index.less';
 import PageLoading from '../PageLoading';
 import { getDefaultCollapsedSubMenus } from './SiderMenuUtils';
 import { title } from '../../defaultSettings';
+import logo from '../../assets/logo.png'
 
 const BaseMenu = React.lazy(() => import('./BaseMenu'));
 const { Sider } = Layout;
@@ -54,7 +55,7 @@ export default class SiderMenu extends PureComponent {
   };
 
   render() {
-    const { logo, collapsed, onCollapse, fixSiderbar, theme, isMobile } = this.props;
+    const { collapsed, onCollapse, fixSiderbar, theme, isMobile } = this.props;
     const { openKeys } = this.state;
     const defaultProps = collapsed ? {} : { openKeys };
 

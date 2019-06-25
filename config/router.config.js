@@ -24,7 +24,7 @@ export default [
     Routes: ['src/pages/Authorized'],
     routes: [
       // 首页显示，默认显示列表的第一个选项
-      { path: '/', redirect: '/wui/user/wlogin', authority: ['admin', 'user'] },
+      { path: '/', redirect: '/wui/user/wlogin'},
       //  wui
       {
         name: '用户',

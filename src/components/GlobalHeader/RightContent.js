@@ -172,7 +172,7 @@ export default class GlobalHeaderRight extends PureComponent {
             showViewMore
           />
         </NoticeIcon> */}
-        {currentUser.name ? (
+        {/* {currentUser.name ? (
           <HeaderDropdown overlay={menu}>
             <span className={`${styles.action} ${styles.account}`}>
               <Avatar
@@ -186,7 +186,7 @@ export default class GlobalHeaderRight extends PureComponent {
           </HeaderDropdown>
         ) : (
           <Spin size="small" style={{ marginLeft: 8, marginRight: 8 }} />
-        )}
+        )} */}
         {/* <SelectLang className={styles.action} /> */}
       </div>
     );

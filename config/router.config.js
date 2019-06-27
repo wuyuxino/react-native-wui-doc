@@ -60,6 +60,11 @@ export default [
             component: './Wnav/Wtitle'
           },
           {
+            path: '/wnav/wsearch',
+            name: '搜索框',
+            component: './Wnav/Wsearch'
+          },
+          {
             path: '/wnav/wtab',
             name: 'Tab',
             component: './Wnav/Wtab'

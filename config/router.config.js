@@ -222,7 +222,7 @@ export default [
         routes: [
           {
             path: '/winstall/winstall',
-            name: '导航、Parse、MobX',
+            name: '常用组件的安装',
             component: './Winstall/Winstall'
           }
         ],

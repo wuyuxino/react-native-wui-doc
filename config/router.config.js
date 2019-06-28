@@ -86,6 +86,11 @@ export default [
             path: '/wuicard/card/wimagecard',
             name: '图片卡片',
             component: './WuiCard/Card/WimageCard'
+          },
+          {
+            path: '/wuicard/card/wcardone',
+            name: '图片卡片一',
+            component: './WuiCard/Card/Wcardone'
           }
         ],
       },

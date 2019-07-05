@@ -227,6 +227,24 @@ export default [
           }
         ],
       },
+      // Echarts 常用图表的使用方法（react/react-native）
+      {
+        name: 'Echarts',
+        icon: 'bar-chart',
+        path: '/wecharts',
+        routes: [
+          {
+            path: '/wecharts/wecharts',
+            name: 'Echarts(react)',
+            component: './Wecharts/Wecharts'
+          },
+          {
+            path: '/wecharts/wechartsrn',
+            name: 'Echarts(reactnative)',
+            component: './Wecharts/WechartsRn'
+          }
+        ],
+      },
       {
         component: '404',
       }

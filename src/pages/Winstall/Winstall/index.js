@@ -281,18 +281,41 @@ class Winstall extends Component{
           </div>
         </div>
         {/* 7 */}
-        {/* <div>
+        <div>
           <p
             style={{
               letterSpacing:1,
               fontSize:'22px',
               color:'#1890FF'
-            }}>Parse的安装</p>
+            }}>React中使用Mobx方法</p>
           <div
             style={{fontSize:'13px',color:'#666',letterSpacing:1,padding:'20px',background:'#fff',borderRadius:'12px',marginBottom:'25px'}}>
-            # npm install --save parse
+            # npm install --save mobx mobx-react react-app-rewired
+            <br/>
+            <br/>
+            # 在你的项目的根目录新建config-overrides.js文件
+            <br/>
+            <br/>
+            const &#123; override, addDecoratorsLegacy &#125; = require('customize-cra');<br/>
+            module.exports = override(<br/>
+              addDecoratorsLegacy()<br/>
+            );
+            <br/>
+            <br/>
+            # 修改package.json文件如下
+            <br/>
+            <br/>
+            "scripts": &#123; <br/>
+              "start": "react-app-rewired start", <br/>
+              "build": "react-app-rewired build", <br/>
+              "test": "react-app-rewired test",   <br/>
+              "eject": "react-app-rewired eject"  <br/>
+              &#125;
+            <br/>
+            <br/>
+            # npm start 运行即可
           </div>
-        </div> */}
+        </div>
       </div>
     )
   }

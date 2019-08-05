@@ -245,6 +245,19 @@ export default [
           }
         ],
       },
+      // three.js 基本安装使用
+      {
+        name: 'ThreeJs',
+        icon: 'code-sandbox',
+        path: '/wthree',
+        routes:[
+          {
+            path: '/wthree/wbasic',
+            name: '基本知识',
+            component: './Wthree/Wbasic'
+          }
+        ]
+      },
       {
         component: '404',
       }

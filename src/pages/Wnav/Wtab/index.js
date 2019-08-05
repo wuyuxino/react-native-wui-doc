@@ -57,11 +57,11 @@ class Wtab extends Component{
                   explain:'tab宽度设置'
                 },
                 {
-                  title:'selectTextStyle (string)',
+                  title:'selectTextStyle (object)',
                   explain:'当前tab选中后文字的颜色设置'
                 },
                 {
-                  title:'noSelectTextStyle (string)',
+                  title:'noSelectTextStyle (object)',
                   explain:'当前tab未选中后文字的颜色设置'
                 }
               ].map((i,n)=>{

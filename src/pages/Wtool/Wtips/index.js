@@ -53,6 +53,14 @@ class Wtips extends Component{
                   explain:'提示文字容器样式设置'
                 },
                 {
+                  title:'tipPosition (string)',
+                  explain:'提示文字容器显示的位置，默认为中间,可以设置为top，同时设置top字段控制容器距离顶部的高度'
+                },
+                {
+                  title:'top (number)',
+                  explain:'控制弹出框距离顶部的高度'
+                },
+                {
                   title:'time (object)',
                   explain:'提示文字显示时间设置，默认1.5s'
                 }

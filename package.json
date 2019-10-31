@@ -38,12 +38,8 @@
     }
   },
   "lint-staged": {
-    "**/*.less": "stylelint --syntax less",
-    "**/*.{js,jsx}": "npm run lint-staged:js",
-    "**/*.{js,ts,tsx,json,jsx,less}": [
-      "node ./scripts/lint-prettier.js",
-      "git add"
-    ]
+    "**/*.less": "stylelint --syntax less"
+    
   },
   "browserslist": [
     "> 1%",

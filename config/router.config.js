@@ -24,7 +24,7 @@ export default [
     Routes: ['src/pages/Authorized'],
     routes: [
       // 首页显示，默认显示列表的第一个选项
-      { path: '/', redirect: '/wui/user/wlogin'},
+      { path: '/', redirect: '/wui/user/wlogin' },
       //  wui
       {
         name: '用户',
@@ -40,7 +40,7 @@ export default [
             path: '/wui/user/wregister',
             name: '用户注册',
             component: './Wui/User/Wregister',
-          }
+          },
         ],
       },
       // nav
@@ -52,23 +52,28 @@ export default [
           {
             path: '/wnav/wheader',
             name: '顶部导航',
-            component: './Wnav/Wheader'
+            component: './Wnav/Wheader',
           },
           {
             path: '/wnav/wtitle',
             name: '标题栏',
-            component: './Wnav/Wtitle'
+            component: './Wnav/Wtitle',
           },
           {
             path: '/wnav/wsearch',
             name: '搜索框',
-            component: './Wnav/Wsearch'
+            component: './Wnav/Wsearch',
           },
           {
             path: '/wnav/wtab',
             name: 'Tab',
-            component: './Wnav/Wtab'
-          }
+            component: './Wnav/Wtab',
+          },
+          {
+            path: '/wnav/wtoptitle',
+            name: '吸顶导航',
+            component: './Wnav/WtopTitle',
+          },
         ],
       },
       // card
@@ -80,18 +85,18 @@ export default [
           {
             path: '/wuicard/card/wcard',
             name: '资料卡片',
-            component: './WuiCard/Card/Wcard'
+            component: './WuiCard/Card/Wcard',
           },
           {
             path: '/wuicard/card/wimagecard',
             name: '图片卡片',
-            component: './WuiCard/Card/WimageCard'
+            component: './WuiCard/Card/WimageCard',
           },
           {
             path: '/wuicard/card/wcardone',
             name: '图片卡片一',
-            component: './WuiCard/Card/Wcardone'
-          }
+            component: './WuiCard/Card/Wcardone',
+          },
         ],
       },
       // list
@@ -103,13 +108,13 @@ export default [
           {
             path: '/wlist/warticle',
             name: '文章列表',
-            component: './Wlist/Warticle'
+            component: './Wlist/Warticle',
           },
           {
             path: '/wlist/wcomment',
             name: '评论列表',
-            component: './Wlist/Wcomment'
-          }
+            component: './Wlist/Wcomment',
+          },
         ],
       },
       // tool
@@ -121,38 +126,38 @@ export default [
           {
             path: '/wtool/wloading',
             name: 'Loading',
-            component: './Wtool/Wloading'
+            component: './Wtool/Wloading',
           },
           {
             path: '/wtool/wtips',
             name: '弹框提示',
-            component: './Wtool/Wtips'
+            component: './Wtool/Wtips',
           },
           {
             path: '/wtool/wtimeselect',
             name: '时间选择',
-            component: './Wtool/WtimeSelect'
+            component: './Wtool/WtimeSelect',
           },
           {
             path: '/wtool/wdate',
             name: '日期选择',
-            component: './Wtool/Wdate'
+            component: './Wtool/Wdate',
           },
           {
             path: '/wtool/wcategory',
             name: '分类选择',
-            component: './Wtool/Wcategory'
+            component: './Wtool/Wcategory',
           },
           {
             path: '/wtool/wswitch',
             name: '开关',
-            component: './Wtool/Wswitch'
+            component: './Wtool/Wswitch',
           },
           {
             path: '/wtool/whelp',
             name: '帮助中心',
-            component: './Wtool/Whelp'
-          }
+            component: './Wtool/Whelp',
+          },
         ],
       },
       // mall
@@ -164,28 +169,28 @@ export default [
           {
             path: '/wmall/wquantity',
             name: '数量选择',
-            component: './Wmall/Wquantity'
+            component: './Wmall/Wquantity',
           },
           {
             path: '/wmall/wspinner',
             name: '下拉列表',
-            component: './Wmall/Wspinner'
+            component: './Wmall/Wspinner',
           },
           {
             path: '/wmall/wmessage',
             name: '聊天消息',
-            component: './Wmall/Wmessage'
+            component: './Wmall/Wmessage',
           },
           {
             path: '/wmall/wcode',
             name: '验证码',
-            component: './Wmall/Wcode'
+            component: './Wmall/Wcode',
           },
           {
             path: '/wmall/wpsbox',
             name: '密码输入',
-            component: './Wmall/Wpsbox'
-          }
+            component: './Wmall/Wpsbox',
+          },
         ],
       },
       // parse
@@ -197,8 +202,8 @@ export default [
           {
             path: '/parse/parsemethod',
             name: '常用函数',
-            component: './Parse/ParseMethod'
-          }
+            component: './Parse/ParseMethod',
+          },
         ],
       },
       // adaptation
@@ -210,8 +215,8 @@ export default [
           {
             path: '/designsize/adaptation',
             name: '常用函数',
-            component: './DesignSize/Adaptation'
-          }
+            component: './DesignSize/Adaptation',
+          },
         ],
       },
       // 组件安装常见问题
@@ -223,8 +228,8 @@ export default [
           {
             path: '/winstall/winstall',
             name: '常用组件的安装',
-            component: './Winstall/Winstall'
-          }
+            component: './Winstall/Winstall',
+          },
         ],
       },
       // Echarts 常用图表的使用方法（react/react-native）
@@ -236,13 +241,13 @@ export default [
           {
             path: '/wecharts/wecharts',
             name: 'Echarts(react)',
-            component: './Wecharts/Wecharts'
+            component: './Wecharts/Wecharts',
           },
           {
             path: '/wecharts/wechartsrn',
             name: 'Echarts(reactnative)',
-            component: './Wecharts/WechartsRn'
-          }
+            component: './Wecharts/WechartsRn',
+          },
         ],
       },
       // three.js 基本安装使用
@@ -250,17 +255,17 @@ export default [
         name: 'ThreeJs',
         icon: 'code-sandbox',
         path: '/wthree',
-        routes:[
+        routes: [
           {
             path: '/wthree/wbasic',
             name: '基本知识',
-            component: './Wthree/Wbasic'
-          }
-        ]
+            component: './Wthree/Wbasic',
+          },
+        ],
       },
       {
         component: '404',
-      }
+      },
     ],
   },
 ];

@@ -144,6 +144,11 @@ export default [
             component: './Wtool/Wdate',
           },
           {
+            path: '/wtool/wdatepicker',
+            name: 'DatePicker',
+            component: './Wtool/Wdatepicker',
+          },
+          {
             path: '/wtool/wcategory',
             name: '分类选择',
             component: './Wtool/Wcategory',

@@ -163,6 +163,11 @@ export default [
             name: '帮助中心',
             component: './Wtool/Whelp',
           },
+          {
+            path: '/wtool/wverificationcode',
+            name: '人机验证码',
+            component: './Wtool/WverificationCode',
+          }
         ],
       },
       // mall
